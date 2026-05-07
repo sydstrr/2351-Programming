@@ -1,0 +1,29 @@
+//Global variable
+var studentName = "Sydney Anglin";
+console.log("Student Name:", studentName)
+
+//String variable
+let welcomeMessage = "Welcome to my JavaScript project!";
+console.log(welcomeMessage);
+
+//Block variable
+ {
+    let className = "IMED-2351 Programming";
+    console.log("Class Name:", className);
+ }
+
+function logger(){
+    console.log("Hello and Welcome");
+}
+
+logger();
+
+document.getElementById("welcome").innerHTML = <h1> Hello, Welcome to my one-page project.</h1>
+<h2> What is your name?</h2>
+
+//Math operations
+let assignmentGrade = 80;
+let extraCredit = 10;
+let finalGrade = assignmentGrade + extraCredit;
+
+console.log("Final Grade:", finalGrade);
