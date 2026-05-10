@@ -1,0 +1,6 @@
+function generateHero(){
+    //Inputs
+    let name = document.getElementById('petName').value;
+    
+   
+}   
